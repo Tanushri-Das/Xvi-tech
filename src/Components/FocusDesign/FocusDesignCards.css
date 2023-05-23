@@ -1,0 +1,43 @@
+.innerMidDiv .cardsDiv {
+    margin-top: 8%;
+}
+.innerMidDiv .card {
+    height: 30%;
+    background-color: #212529;
+}
+.card-body {
+    min-height: 1px;
+    padding: 1.25rem!important;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+}
+
+.cardText {
+    line-height: 140%;
+}
+p {
+    font-size: 110%;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+@media (min-width: 576px){
+    .card-group {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .card-group>.card:not(:last-child) {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
+

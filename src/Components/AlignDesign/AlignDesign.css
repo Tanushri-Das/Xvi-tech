@@ -1,0 +1,166 @@
+.mainDesignDiv {
+  position: relative;
+  background-color: #fff;
+  padding: 10% 0 30%;
+  margin-bottom: 8%;
+}
+.topDesign {
+  position: absolute;
+  height: 20%;
+  width: 65%;
+  top: 1%;
+  left: 17%;
+  z-index: 2;
+}
+.topDesign img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.midDesign {
+  position: relative;
+  width: 100%;
+  height: 165rem;
+  color: #fff;
+  background: #202226 !important;
+  text-align: left;
+}
+.midDesign {
+  object-fit: cover;
+}
+.midDesign .innerMidDiv {
+  position: absolute;
+  top: 22%;
+  left: 17%;
+  width: 70%;
+}
+.liveText {
+  margin-bottom: 12%;
+}
+.liveText h5 {
+  margin: 5% 0;
+  font-size: 16px;
+  color: #959595 !important;
+}
+.leftAnimation .leftP1 {
+  margin: 0 0 0 1%;
+  font-size: 600%;
+  font-weight: bolder;
+}
+.leftAnimation .leftP2 {
+  margin: 0 0 0 10%;
+  font-size: 550%;
+  font-weight: bolder;
+}
+.leftAnimation .leftP3 {
+  margin: 0 0 0 30%;
+  font-size: 590%;
+  font-weight: bolder;
+  font-weight: lighter;
+  font-style: oblique;
+}
+.rightAnimationText {
+  padding-top: 63%;
+  line-height: 38px;
+  text-align: left;
+  padding-left: 8%;
+}
+.react-reveal {
+  animation-fill-mode: both;
+  animation-duration: 1000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation-name: react-reveal-646492549801730-1;
+}
+.innerMidDiv .heading2 {
+    color: #959595!important;
+}
+.innerMidDiv h3 {
+    font-family: freight-display-pro,serif;
+    padding-right: 30%;
+    line-height: 35px;
+    font-size: 1.5rem;
+}
+.bottomDesign {
+  position: absolute;
+  z-index: 2;
+  height: 21%;
+  width: 65%;
+  bottom: -1%;
+  left: 16%;
+}
+.bottomDesign img {
+  object-fit: cover;
+  width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+@keyframes react-reveal-646492549801730-1{
+    0% {
+        opacity: 0;
+        transform: translate3d(0px, 100%, 0px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+@media only screen and (max-width: 956px){
+  .topDesign {
+    width: 95%;
+    height: 20%;
+    left: 2.5%;
+    top: -.1%;
+}
+}
+@media only screen and (max-width: 768px){
+  .rightAnimationText {
+    padding-top: 12%;
+    padding-right: 8%;
+}
+.innerMidDiv h3 {
+  padding-right: 5%;
+  font-size: 1.7rem;
+  line-height: 35px;
+}
+}
+
+@media only screen and (max-width: 575px){
+  .midDesign .innerMidDiv {
+    top: 18%;
+    /* left: 9%; */
+    left:7%;
+  }
+  .topDesign {
+    height:9%;
+  }
+  .leftAnimation .leftP1 {
+    margin: 0;
+    font-size: 440%;
+    font-weight: bolder;
+}
+.leftAnimation .leftP2 {
+  margin-left: 10%;
+  font-size: 420%;
+}
+.leftAnimation .leftP3 {
+  margin-left: 20%;
+  font-size: 440%;
+}
+.midDesign .innerMidDiv {
+  position: absolute;
+  width:100%;
+}
+.midDesign {
+  /* height: 240rem; */
+  height: 275rem;
+}
+.bottomDesign {
+  width: 90%;
+  left: 5%;
+  height:9.5%;
+}
+}

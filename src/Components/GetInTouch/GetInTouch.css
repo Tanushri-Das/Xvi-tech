@@ -1,0 +1,38 @@
+.getInTouchContainer {
+    text-align: left;
+    padding-left: 18%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    border-bottom: 2px solid #000;
+}
+.touchInButton {
+    font-size: 1rem;
+    height: 3.625rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    text-decoration: none;
+    background-color: #000;
+    padding: 0 3rem;
+    border-radius: 2px;
+    font-weight: 500;
+    transition: all .25s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    font-family: "Avenir Next",Arial,sans-serif;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 2rem;
+}
+.btn-success:disabled {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+@media screen and (max-width: 1500px){
+    .getInTouchContainer {
+        padding: 5% 3%;
+    }
+}
