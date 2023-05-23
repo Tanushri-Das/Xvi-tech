@@ -48,6 +48,9 @@
   font-size: 600%;
   font-weight: bolder;
 }
+.midDesign {
+  object-fit: cover;
+}
 .leftAnimation .leftP2 {
   margin: 0 0 0 10%;
   font-size: 550%;
@@ -152,11 +155,12 @@
 }
 .midDesign .innerMidDiv {
   position: absolute;
-  width:100%;
+  width:100px;
 }
 .midDesign {
   /* height: 240rem; */
   height: 275rem;
+  max-width: 100%;
 }
 .bottomDesign {
   width: 90%;
