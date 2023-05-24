@@ -160,12 +160,11 @@ input {
   transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
   z-index: -1;
 }
+
 .request-demo-button:hover:before {
-  -webkit-transform: translateX(-40%) skewX(45deg);
+
   transform: translateX(-40%) skewX(45deg);
 }
-
-
 @media screen and (min-width: 992px) and (max-width: 1600px) {
   .nav-link {
     font-size: 18px;
