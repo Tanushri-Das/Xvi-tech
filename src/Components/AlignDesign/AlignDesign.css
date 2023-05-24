@@ -69,6 +69,9 @@
   text-align: left;
   padding-left: 8%;
 }
+.collaborate h4 {
+  font-weight: bolder;
+}
 .react-reveal {
   animation-fill-mode: both;
   animation-duration: 1000ms;
@@ -118,6 +121,15 @@
     left: 2.5%;
     top: -.1%;
 }
+.midDesign .innerMidDiv {
+  width: 90%;
+  left: 4%;
+}
+.bottomDesign {
+  width: 100%;
+  left: 0;
+  height: 20%;
+}
 }
 @media only screen and (max-width: 768px){
   .rightAnimationText {
@@ -129,11 +141,14 @@
   font-size: 1.7rem;
   line-height: 35px;
 }
+.midDesign {
+  height: 180rem;
+}
 }
 
 @media only screen and (max-width: 575px){
   .midDesign .innerMidDiv {
-    top: 18%;
+    top: 12%;
     /* left: 9%; */
     left:7%;
   }
@@ -155,16 +170,23 @@
 }
 .midDesign .innerMidDiv {
   position: absolute;
-  width:100px;
+
 }
 .midDesign {
-  /* height: 240rem; */
-  height: 275rem;
+  height: 250rem;
+  /* height: 275rem; */
   max-width: 100%;
 }
 .bottomDesign {
   width: 90%;
   left: 5%;
   height:9.5%;
+}
+.rightAnimationText {
+  padding-top: 12%;
+  padding-right: 8%;
+}
+.midDesign .innerMidDiv {
+  width: 90%;
 }
 }

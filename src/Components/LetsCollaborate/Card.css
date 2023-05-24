@@ -57,6 +57,10 @@ a:any-link {
     opacity: 1;
     animation-name: react-reveal-646492549801730-1;
   }
+  
+  .servicesH2-b {
+    padding-bottom: 7%;
+}
   @keyframes react-reveal-646492549801730-1{
     0% {
         opacity: 0;
@@ -70,11 +74,13 @@ a:any-link {
 }
 @media screen and (max-width: 1500px){
     .collaborate {
-        padding:12% 5%;
+        /* padding: 3% 5%; */
+        padding:9% 5%;
         text-align: left;
     }
     .servicesMainDiv {
-        padding: 5% 3%;
+        padding-left: 4%;
+    padding-right: 4%;
         text-align: left;
         font-family: serif;
     }

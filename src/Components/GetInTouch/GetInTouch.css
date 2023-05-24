@@ -26,6 +26,32 @@
     color: #fff;
     margin-top: 2rem;
 }
+.touchInButton:hover {
+    border-color: #111822;
+    background-color: transparent;
+    color: #000;
+}
+.touchInButton:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: #fff;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: translateX(-200%) skewX(45deg);
+    transform: translateX(-200%) skewX(45deg);
+    transition: -webkit-transform .25s ease-in-out;
+    transition: transform .25s ease-in-out;
+    transition: transform .25s ease-in-out,-webkit-transform .25s ease-in-out;
+    z-index: -1;
+}
+.touchInButton:hover:before {
+    -webkit-transform: translateX(-40%) skewX(45deg);
+    transform: translateX(-40%) skewX(45deg);
+}
 .btn-success:disabled {
     color: #fff;
     background-color: #28a745;

@@ -71,7 +71,7 @@ p {
     }
 }
 
-@media only screen and (max-device-width:580px){
+@media only screen and (max-device-width:780px){
     .footer {
         background-color: #000;
         width: 100%;

@@ -1,105 +1,110 @@
-/* .h1Container {
-    padding: 0 0 55px;
-}
-
-.h1Container h1 {
-    font-family: Quarto Light,source-han-serif-sc,serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 5.5rem;
-    line-height: 100px;
-}
-.pContainer {
-    font-size: 110%;
-    font-family: sans-serif;
-    padding-right: 10%;
-}
-.pContainer p {
-    font-weight: 400;
-    font-family: GT America,source-han-sans-simplified-c,sans-serif;
-    font-size: 24px;
-    line-height: 32px;
-}
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-} */
-
 .headerParentDiv {
-    position: relative;
-    font-family: Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-    padding: 100px 20%;
-    background: #fff;
-    color: #000;
-    text-align: left;
-    animation: headerAnimation 1.5s ease-out;
+  position: relative;
+  font-family: Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  padding: 100px 20%;
+  background: #fff;
+  color: #000;
+  text-align: left;
+  animation: headerAnimation 1.5s ease-out;
 }
-.headerParentDiv .spanContainer {
-    padding: 24px 0 20px;
-}
+
 .headerParentDiv .h1Container {
-    padding: 0 0 55px;
+  padding: 0 0 55px;
 }
 .headerParentDiv .spanContainer span {
-    font-size: 19px;
-    font-weight: 700;
+  font-size: 19px;
+  font-weight: 700;
 }
 .headerParentDiv .h1Container h1 {
-    font-family: Quarto Light,source-han-serif-sc,serif;
-    font-style: normal;
-    font-weight: 100;
+  font-family: Quarto Light, source-han-serif-sc, serif;
+  font-style: normal;
+  font-weight: 100;
 }
+
 .headerParentDiv .pContainer {
-    font-size: 110%;
-    font-family: sans-serif;
-    padding-right: 10%;
+  font-size: 110%;
+  font-family: sans-serif;
+  padding-right: 10%;
 }
 .headerParentDiv .pContainer p {
-    font-weight: 400;
-    font-family: GT America,source-han-sans-simplified-c,sans-serif;
-    font-size: 24px;
-    line-height: 32px;
+  font-weight: 400;
+  font-family: GT America, source-han-sans-simplified-c, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
 }
-@keyframes headerAnimation{
-    0% {
-        opacity: 0;
-        top: 30px;
-    }
-    
-    100% {
-        opacity: 1;
-        top: 0;
-    }
+@keyframes headerAnimation {
+  0% {
+    opacity: 0;
+    top: 30px;
+  }
+
+  100% {
+    opacity: 1;
+    top: 0;
+  }
 }
-
-
-@media screen and (max-width: 1600px){
-    /* .h1Container h1 {
-        font-size: 4.9rem;
-        line-height: 82px;
-    } */
+@media screen and (max-width: 1600px) {
+  .headerParentDiv {
+    padding-top: 11%;
+    padding-left: 8%;
+    padding-right: 3%;
+  }
+  .headerParentDiv .h1Container h1 {
+    font-size: 4.9rem;
+    line-height: 82px;
+  }
+}
+@media screen and (max-width: 1300px) {
     .headerParentDiv {
-        padding-left: 8%;
-        padding-right: 3%;
+      padding-top:16%;
+      padding-left: 8%;
+      padding-right: 3%;
     }
     .headerParentDiv .h1Container h1 {
-        font-size: 4.9rem;
-        line-height: 82px;
+      font-size: 4.9rem;
+      line-height: 82px;
     }
+  }
+@media screen and (max-width: 1100px) {
+  .headerParentDiv {
+    padding-top:20%;
+    padding-left: 8%;
+    padding-right: 3%;
+  }
+  .headerParentDiv .h1Container h1 {
+    font-size: 4.9rem;
+    line-height: 82px;
+  }
 }
-@media screen and (max-width: 756px){
+@media screen and (max-width: 900px) {
     .headerParentDiv .h1Container h1 {
-        font-size: 3rem;
-        line-height: 52px;
+      font-size: 4.9rem;
+      line-height: 82px;
     }
     .headerParentDiv {
-        padding-top: -2%;
-        padding-left: 4%;
-        padding-right: 3%;
+      padding-top: 20%;
+      padding-left: 8%;
+      padding-right: 3%;
     }
     .headerParentDiv .pContainer p {
-        font-size: 16px;
-        line-height: 25px;
+      font-size: 16px;
+      line-height: 25px;
     }
+  }
+@media screen and (max-width: 600px) {
+  .headerParentDiv .h1Container h1 {
+    font-size: 3rem;
+    line-height: 52px;
+  }
+  .headerParentDiv {
+    padding-top: 30%;
+    padding-left: 4%;
+    padding-right: 3%;
+  }
+  .headerParentDiv .pContainer p {
+    font-size: 16px;
+    line-height: 25px;
+  }
 }
 

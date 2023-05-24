@@ -54,7 +54,7 @@ const Card = ({ card }) => {
 
   return (
     <Row>
-      <Col lg={6}>
+      <Col md={6}>
         <div className="servicesDescription">
           <div className="servicesH2">
             <h2>{title}</h2>
@@ -73,7 +73,7 @@ const Card = ({ card }) => {
           </div>
         </div>
       </Col>
-      <Col lg={6}>
+      <Col md={6}>
         <img src={image} className="serviceImage" alt={title} />
       </Col>
     </Row>

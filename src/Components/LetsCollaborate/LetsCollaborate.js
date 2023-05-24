@@ -14,14 +14,14 @@ const CollaborateContainer = ({ cards }) => {
         <h4>Let's Collaborate</h4>
       </div>
       <div className="servicesMainDiv"> 
-        <div className="react-reveal d-none d-lg-block">
+        <div className="react-reveal d-none d-md-block">
         {cards.map((card, index) => (
           <Card key={index} card={card} />
         ))}
         </div>
       </div>
       <div className="servicesMainDiv"> 
-        <div className="react-reveal d-block d-lg-none">
+        <div className="react-reveal d-block d-md-none">
         {cards.map((card, index) => (
           <ResponsiveCard key={index} card={card} />
         ))}

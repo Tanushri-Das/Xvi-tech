@@ -29,7 +29,7 @@ const GetInTouch = () => {
         <Modal.Body>
           <Form>
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-md-6">
                 <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
@@ -38,7 +38,7 @@ const GetInTouch = () => {
                   <Form.Control type="email" autoFocus />
                 </Form.Group>
               </div>
-              <div class="col-lg-6">
+              <div class="col-md-6">
                 <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
@@ -49,7 +49,7 @@ const GetInTouch = () => {
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-md-6">
                 <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
@@ -58,7 +58,7 @@ const GetInTouch = () => {
                   <Form.Control type="email" autoFocus />
                 </Form.Group>
               </div>
-              <div class="col-lg-6">
+              <div class="col-md-6">
                 <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
@@ -69,7 +69,7 @@ const GetInTouch = () => {
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-md-6">
                 <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
@@ -78,7 +78,7 @@ const GetInTouch = () => {
                   <Form.Control type="email" autoFocus />
                 </Form.Group>
               </div>
-              <div class="col-lg-6">
+              <div class="col-md-6">
                 <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
@@ -89,7 +89,7 @@ const GetInTouch = () => {
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-12">
+              <div class="col-md-12">
                 <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
